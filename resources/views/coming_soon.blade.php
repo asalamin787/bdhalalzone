@@ -45,7 +45,7 @@
         <div class="home-content">
 
             <div class="home-logo">
-                <a href="index-particles.html">
+                <a href="#">
                     <img src="{{asset('coming_soon/images/logo.svg')}}" alt="Homepage">
                 </a>
             </div>
