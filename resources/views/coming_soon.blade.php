@@ -16,14 +16,14 @@
     <link rel="icon" type="image/png" href="{{ asset('coming_soon/images/logo.svg') }}">
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="{{asset('coming_soon/css/base.css')}}">
-    <link rel="stylesheet" href="{{asset('coming_soon/css/vendor.css')}}">
-    <link rel="stylesheet" href="{{asset('coming_soon/css/main.css')}}">
+    <link rel="stylesheet" href="{{ asset('coming_soon/css/base.css') }}">
+    <link rel="stylesheet" href="{{ asset('coming_soon/css/vendor.css') }}">
+    <link rel="stylesheet" href="{{ asset('coming_soon/css/main.css') }}">
 
     <!-- script
     ================================================== -->
-    <script src="{{asset('coming_soon/js/modernizr.js')}}"></script>
-    <script src="{{asset('coming_soon/js/pace.min.js')}}"></script>
+    <script src="{{ asset('coming_soon/js/modernizr.js') }}"></script>
+    <script src="{{ asset('coming_soon/js/pace.min.js') }}"></script>
 
     <!-- favicons
     ================================================== -->
@@ -46,7 +46,7 @@
 
             <div class="home-logo">
                 <a href="#">
-                    <img src="{{asset('coming_soon/images/logo.svg')}}" alt="Homepage">
+                    <img src="{{ asset('coming_soon/images/logo.svg') }}" alt="Homepage">
                 </a>
             </div>
 
@@ -231,10 +231,41 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="{{asset('coming_soon/js/jquery-3.2.1.min.js')}}"></script>
-    <script src="{{asset('coming_soon/js/plugins.js')}}"></script>
-    <script src="{{asset('coming_soon/js/polygons.js')}}"></script>
-    <script src="{{asset('coming_soon/js/main.js')}}"></script>
+    <script src="{{ asset('coming_soon/js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ asset('coming_soon/js/plugins.js') }}"></script>
+    <script src="{{ asset('coming_soon/js/polygons.js') }}"></script>
+    <script src="{{ asset('coming_soon/js/main.js') }}"></script>
+    <script>
+        // Set the launch date (YYYY-MM-DD HH:MM:SS format)
+        const launchDate = new Date("2025-12-31T00:00:00").getTime();
+
+        const updateCountdown = () => {
+            const now = new Date().getTime();
+            const distance = launchDate - now;
+
+            // Time calculations
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Update DOM
+            document.querySelector(".time.days").innerHTML = `${days}<span>Days</span>`;
+            document.querySelector(".time.hours").innerHTML = `${String(hours).padStart(2, '0')}<span>H</span>`;
+            document.querySelector(".time.minutes").innerHTML = `${String(minutes).padStart(2, '0')}<span>M</span>`;
+            document.querySelector(".time.seconds").innerHTML = `${String(seconds).padStart(2, '0')}<span>S</span>`;
+
+            // If launch time has passed
+            if (distance < 0) {
+                clearInterval(countdownInterval);
+                document.querySelector(".home-content__clock").innerHTML = "We're Live!";
+            }
+        };
+
+        // Run every second
+        const countdownInterval = setInterval(updateCountdown, 1000);
+    </script>
+
 
 </body>
 
