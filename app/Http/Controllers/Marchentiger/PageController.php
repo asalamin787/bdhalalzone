@@ -13,6 +13,10 @@ use Illuminate\Support\Str;
 
 class PageController extends Controller
 {
+    public function homeOne()
+    {
+        return view('coming_soon');
+    }
     public function dashboard()
     {
 

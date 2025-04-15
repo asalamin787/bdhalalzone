@@ -67,7 +67,8 @@ Route::get('liked/shops', [PageController::class, 'followShops'])->name('follow.
 Route::post('/add-address', [CheckoutController::class, 'userAddress'])->name('user.address.store');
 
 
-Route::get('/', [PageController::class, 'home'])->name('homepage');
+Route::get('', [PageController::class, 'homeOne'])->name('homepage1');
+Route::get('home', [PageController::class, 'home'])->name('homepage');
 Route::get('/products', [PageController::class, 'shops'])->name('shops');
 Route::get('/cart', [PageController::class, 'cart'])->name('cart');
 
