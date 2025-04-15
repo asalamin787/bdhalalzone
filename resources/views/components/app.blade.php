@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-    <title>UKRBD – Quality Products at Unbeatable Prices</title>
+    <title>Quality Products at Unbeatable Prices</title>
 
     <meta name="keywords"
         content="UKRBD, online shopping, buy products online, affordable prices, electronics, fashion, home essentials, Bangladesh eCommerce, quality products, fast shippin" />
@@ -17,27 +17,27 @@
         content="Discover a wide range of quality products on UKRBD. From electronics and fashion to home essentials, we offer competitive prices, fast delivery, and secure shopping for customers worldwide.">
 
 
-    <meta property="og:title" content="UKRBD – Quality Products at Unbeatable Prices" />
+    <meta property="og:title" content="Quality Products at Unbeatable Prices" />
     <meta property="og:description"
         content="Discover a wide range of quality products on UKRBD. From electronics and fashion to home essentials, we offer competitive prices, fast delivery, and secure shopping for customers worldwide." />
-    <meta property="og:url" content="https://www.ukrbd.com" />
+    {{-- <meta property="og:url" content="https://www.ukrbd.com" /> --}}
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="{{ asset('assets/social.png') }}" />
-    <meta property="og:site_name" content="UKRBD" />
+    {{-- <meta property="og:image" content="{{ asset('assets/social.png') }}" /> --}}
+    {{-- <meta property="og:site_name" content="UKRBD" /> --}}
     <meta property="og:locale" content="en_US" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="UKRBD – Quality Products at Unbeatable Prices" />
+    <meta name="twitter:title" content="Quality Products at Unbeatable Prices" />
     <meta name="twitter:description"
         content="Discover a wide range of quality products on UKRBD. From electronics and fashion to home essentials, we offer competitive prices, fast delivery, and secure shopping for customers worldwide." />
-    <meta name="twitter:image" content="{{ asset('assets/social.png') }}" />
-    <meta name="twitter:site" content="@UKRBD" />
+    {{-- <meta name="twitter:image" content="{{ asset('assets/social.png') }}" /> --}}
+    {{-- <meta name="twitter:site" content="@UKRBD" /> --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/icons/favicon.png') }}">
+    {{-- <link rel="icon" type="image/png" href="{{ asset('assets/images/icons/favicon.png') }}"> --}}
 
     <!-- WebFont.js -->
     <script>

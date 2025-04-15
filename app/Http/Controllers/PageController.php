@@ -11,6 +11,7 @@ use App\Models\Rating;
 use App\Models\Shop;
 use App\Models\User;
 use App\Slider;
+use Doctrine\DBAL\Schema\View;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
@@ -20,6 +21,9 @@ use TCG\Voyager\Models\Page;
 
 class PageController extends Controller
 {
+    public function homeOne(){
+        return View('coming_soon');
+    }
     public function home()
     {
         $division = session()->get('division', 'Bangladesh');

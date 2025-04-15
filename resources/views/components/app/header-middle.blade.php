@@ -3,7 +3,7 @@
 @endphp
 
 <div class="header-bottom sticky-content fix-top sticky-header has-dropdown"
-    style="background-color: #007cc5 !important;">
+    style="background-color: #35AFA0; !important;">
     <div class="container">
         <div class="inner-wrap">
             <div class="header-left">
