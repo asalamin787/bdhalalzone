@@ -12,26 +12,26 @@
     <title>Quality Products at Unbeatable Prices</title>
 
     <meta name="keywords"
-        content="UKRBD, online shopping, buy products online, affordable prices, electronics, fashion, home essentials, Bangladesh eCommerce, quality products, fast shippin" />
+        content="MYEASYMART, online shopping, buy products online, affordable prices, electronics, fashion, home essentials, Bangladesh eCommerce, quality products, fast shippin" />
     <meta name="description"
-        content="Discover a wide range of quality products on UKRBD. From electronics and fashion to home essentials, we offer competitive prices, fast delivery, and secure shopping for customers worldwide.">
+        content="Discover a wide range of quality products on MYEASYMART. From electronics and fashion to home essentials, we offer competitive prices, fast delivery, and secure shopping for customers worldwide.">
 
 
     <meta property="og:title" content="Quality Products at Unbeatable Prices" />
     <meta property="og:description"
-        content="Discover a wide range of quality products on UKRBD. From electronics and fashion to home essentials, we offer competitive prices, fast delivery, and secure shopping for customers worldwide." />
-    {{-- <meta property="og:url" content="https://www.ukrbd.com" /> --}}
+        content="Discover a wide range of quality products on MYEASYMART. From electronics and fashion to home essentials, we offer competitive prices, fast delivery, and secure shopping for customers worldwide." />
+    {{-- <meta property="og:url" content="https://myeasymart.com" /> --}}
     <meta property="og:type" content="website" />
     {{-- <meta property="og:image" content="{{ asset('assets/social.png') }}" /> --}}
-    {{-- <meta property="og:site_name" content="UKRBD" /> --}}
+    {{-- <meta property="og:site_name" content="MYEASYMART" /> --}}
     <meta property="og:locale" content="en_US" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Quality Products at Unbeatable Prices" />
     <meta name="twitter:description"
-        content="Discover a wide range of quality products on UKRBD. From electronics and fashion to home essentials, we offer competitive prices, fast delivery, and secure shopping for customers worldwide." />
+        content="Discover a wide range of quality products on MYEASYMART. From electronics and fashion to home essentials, we offer competitive prices, fast delivery, and secure shopping for customers worldwide." />
     {{-- <meta name="twitter:image" content="{{ asset('assets/social.png') }}" /> --}}
-    {{-- <meta name="twitter:site" content="@UKRBD" /> --}}
+    {{-- <meta name="twitter:site" content="@MYEASYMART" /> --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -505,7 +505,7 @@
             <div class="footer-bottom">
                 <div class="container">
                     <div class="footer-left">
-                        <p class="copyright">Copyright © 2024 UKRBD Store. All Rights Reserved.</p>
+                        <p class="copyright">Copyright © 2024 MYEASYMART Store. All Rights Reserved.</p>
                     </div>
                     <div class="footer-right">
                         <span class="payment-label mr-lg-8">We're using safe payment for</span>
@@ -588,7 +588,7 @@
                                     <li> <a class="" href="{{ route('vendor.create') }}"
                                             style="font-size: small">Register as E-Shop </a> </li>
                                     <li> <a class="" href="{{ route('marchentiger.create') }}"
-                                            style="font-size: small">Register as UKRBD Affiliate </a> </li>
+                                            style="font-size: small">Register as MYEASYMART Affiliate </a> </li>
                                 @elseif(auth()->user()->role_id == 3)
                                     <li><a href="{{ route('vendor.dashboard') }}">My Account</a></li>
 

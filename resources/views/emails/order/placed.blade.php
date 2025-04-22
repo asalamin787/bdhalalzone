@@ -23,11 +23,11 @@
                         <p style="font-size: 12px;margin:0px"> Order No: {{ $order->id }}</p>
                     </td>
                     <td style="text-align: right">
-                        <h6 style="font-size: 16px;margin:0px">UKRBD</h6>
+                        <h6 style="font-size: 16px;margin:0px">MYEASYMART</h6>
                         <br>
                         <p style="font-size: 12px;margin:0px">BARISHAL, BANGLADESH</p>
                         {{-- <p>+1 (518) 653-8997</p> --}}
-                        <p style="font-size: 12px;margin:0px"> ukrbd.com@gmail.com</p>
+                        <p style="font-size: 12px;margin:0px"> MYEASYMART.com@gmail.com</p>
                     </td>
         </tr>
     </table>

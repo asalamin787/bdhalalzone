@@ -51,7 +51,7 @@
                     </div>
                     <div class="col-md-6">
                         <br>
-                        <p class="text-dark" style="font-size: 16px;">UKRBD
+                        <p class="text-dark" style="font-size: 16px;">MYEASYMART
                             <br>
                             info@urkbd.com
                             <br>

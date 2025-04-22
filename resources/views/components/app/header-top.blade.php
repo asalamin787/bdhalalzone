@@ -106,7 +106,7 @@
                         <a class="dropdown-item wishlist-label d-lg-show" href="{{ route('vendor.create') }}"
                             style="font-size: small">Register as E-Shop </a>
                         <a class="dropdown-item wishlist-label d-lg-show" href="{{ route('marchentiger.create') }}"
-                            style="font-size: small">Register as UKRBD Affiliate </a>
+                            style="font-size: small">Register as MYEASYMART Affiliate </a>
 
                     @endif
                 </div>

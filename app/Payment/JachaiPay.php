@@ -13,7 +13,7 @@ class JachaiPay
     const HEADERS = [
         'merRegId' => 'merchantmHXbiT',
         'regPasKey' => 'yaXUSvmUjX3l',
-        'shortName' => 'ukrbdmqey',
+        'shortName' => 'MYEASYMARTdmqey',
     ];
     public Charge $charge;
 

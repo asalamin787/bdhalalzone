@@ -98,7 +98,7 @@
                                           href="{{ url('page/policies') }}" style="" target="_banl"
                                           class="mt-0 ml-2">I have
                                           read and agree to the <span>Terms &amp; Conditions of
-                                              Ukrbd</span></a><span class="checked"></span>
+                                              MYEASYMART</span></a><span class="checked"></span>
                                       @error('terms')
                                           <span class="invalid-feedback " role="alert">
                                               <strong>{{ $message }}</strong>
@@ -242,7 +242,7 @@
                                           name="terms" required><span class="mt-0 ml-2">I have
                                           read and agree to the <a href="{{ url('page/policies') }}" style=""
                                               target="_blank">Terms &amp; Conditions of
-                                              Ukrbd</a></span><span class="checked"></span>
+                                              MYEASYMART</a></span><span class="checked"></span>
                                       @error('terms')
                                           <span class="invalid-feedback " role="alert">
                                               <strong>{{ $message }}</strong>

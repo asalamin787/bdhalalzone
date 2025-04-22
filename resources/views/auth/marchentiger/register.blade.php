@@ -25,7 +25,7 @@
     <div class="login-page">
         <div class="page-header">
             <div class="container">
-                <h1 class="page-title mb-0">Register as UKRBD Affiliate</h1>
+                <h1 class="page-title mb-0">Register as MYEASYMART Affiliate</h1>
             </div>
         </div>
     </div>
@@ -101,7 +101,7 @@
                                         required><span class="mt-0 ml-2">I have
                                         read and agree to the <a href="{{ url('page/policies') }}" style=""
                                             target="_blank">Terms &amp; Conditions of
-                                            Ukrbd</a></span><span class="checked"></span>
+                                            MYEASYMART</a></span><span class="checked"></span>
                                     @error('terms')
                                         <span class="invalid-feedback " role="alert">
                                             <strong>{{ $message }}</strong>

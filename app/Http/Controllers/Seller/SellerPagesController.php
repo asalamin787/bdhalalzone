@@ -600,7 +600,7 @@ class SellerPagesController extends Controller
             auth()->user()->shop->update([
                 'referral_id'=>$user->retailer->id,
             ]);
-            return back()->with('success_msg', 'UKRBD Affiliate assing success');
+            return back()->with('success_msg', 'MYEASYMART Affiliate assing success');
         }else{
             return redirect()->back()->withErrors("This user doesn't exits.");
         }

@@ -156,7 +156,7 @@
                                                                         <p class="total"><span>Total :</span> {{Sohoj::price($total)}}</p>
                                                                         <p class="total"><span>E-Shop Profit :</span> {{Sohoj::price($shop_earn)}}</p>
                                                                         <p class="total"><span>Admin Profit :</span> {{Sohoj::price($admin_earn - $retailer_earn)}}</p>
-                                                                        <p class="total"><span>UKRBD Affiliate :</span> {{Sohoj::price($retailer_earn)}}</p>
+                                                                        <p class="total"><span>MYEASYMART Affiliate :</span> {{Sohoj::price($retailer_earn)}}</p>
                                                                     </ul>
                                                                 </div>
                                                             

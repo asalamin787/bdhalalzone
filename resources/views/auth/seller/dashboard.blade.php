@@ -214,7 +214,7 @@
             @csrf
              <div class="row align-items-center">
                 <div class="col-md-8">
-                    <x-forms.input type="text" name="email" id="email" label="Assign UKRBD Affiliate" required :value="old('email')"/>
+                    <x-forms.input type="text" name="email" id="email" label="Assign MYEASYMART Affiliate" required :value="old('email')"/>
                 </div>
                 <div class="col-md-3 mt-2">
                     <button type="submit" class="btn btn-primary">Save</button>

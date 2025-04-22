@@ -22,7 +22,7 @@
                     <div class="section-title">
                         {{-- <h2 class="ec-bg-title">Log In</h2> --}}
 
-                        <h2 class="ec-title">2nd Step Verification <span class="text-success">UKRBD</span> </h2>
+                        <h2 class="ec-title">2nd Step Verification <span class="text-success">MYEASYMART</span> </h2>
                         <p class="sub-title mb-3">{{ __('Register as vendor') }}</p>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
                                     <input type="checkbox" required class="@error('terms') is-invalid @enderror"
                                         id="terms" style="width: 25px;" value="1" name="terms"><span>I
                                         have
-                                        read and agree to the <a href="https://ukrbd.sohojearning.com/page/privacy"
+                                        read and agree to the <a href=""
                                             style="" class="ml-2 ">Terms
                                             &amp; Conditions</a></span><span class="checked"></span>
                                     @error('terms')
