@@ -22,7 +22,6 @@ use TCG\Voyager\Models\Page;
 class PageController extends Controller
 {
     public function homeOne(){
-        dd('hello');
         return View('coming_soon');
     }
     public function home()
