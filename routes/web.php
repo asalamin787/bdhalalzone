@@ -68,7 +68,7 @@ Route::post('/add-address', [CheckoutController::class, 'userAddress'])->name('u
 
 
 Route::get('/', [PageController::class, 'homeOne'])->name('homepage1');
-// Route::get('hometwo', [PageController::class, 'home'])->name('homepage');
+Route::get('hometwo', [PageController::class, 'home'])->name('homepage');
 Route::get('/products', [PageController::class, 'shops'])->name('shops');
 Route::get('/cart', [PageController::class, 'cart'])->name('cart');
 
